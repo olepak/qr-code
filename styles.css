@@ -1,0 +1,9 @@
+:root {
+	--test-frame: 1px solid black;
+}
+
+.container {
+	width: 1000px;
+	border: var(--test-frame);
+	margin: auto;
+}
