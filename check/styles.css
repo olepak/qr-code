@@ -1,0 +1,13 @@
+:root {
+	--test-frame: 1px solid black;
+}
+body {
+	width: 1440px;
+}
+.container {
+	display: inline;
+	margin: auto;
+	border: var(--test-frame);
+	margin: auto;
+	padding: 20px;
+}
