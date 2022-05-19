@@ -2,36 +2,25 @@
 :root {
 	--test-frame: 1px solid black;
 }
-/* Test border for all */
 * {
-	/* border: var(--test-frame); */
 	margin: 0;
 	padding: 0;
 }
-html {
-	padding: 10px;
-}
 body {
 	max-width: 1440px;
-	min-width: 375;
+	min-width: 375px;
 	margin: auto;
 	font-family: "Outfit", sans-serif;
-	margin-top: 20px;
-	margin-bottom: 0;
-	border: none;
-}
-.page {
-	padding: 0;
-	display: flex;
-	justify-content: center;
 	background-color: hsl(212, 45%, 89%);
-	padding: 40px;
 }
+
 .container {
 	border-radius: 20px;
-	padding: 20px;
+	padding: 16px;
 	width: 320px;
 	background-color: hsl(0, 0%, 100%);
+	box-sizing: border-box;
+	margin: 85px auto;
 }
 img {
 	width: 100%;
@@ -43,15 +32,11 @@ h1 {
 }
 h1 {
 	color: hsl(218, 44%, 22%);
-
-	font-size: 24px;
+	font-size: 22px;
 }
 p {
 	font-size: 15px;
 	font-weight: 400;
-
-	font-weight: 400;
-
 	color: hsl(220, 15%, 55%);
 }
 .aligned {
