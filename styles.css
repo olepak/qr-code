@@ -14,30 +14,37 @@ body {
 	background-color: hsl(212, 45%, 89%);
 }
 
-.container {
-	border-radius: 20px;
-	padding: 16px;
-	width: 320px;
-	background-color: hsl(0, 0%, 100%);
-	box-sizing: border-box;
-	margin: 85px auto;
-}
 img {
 	width: 100%;
 	border-radius: 10px;
 }
-p,
+
 h1 {
-	margin: 20px 15px;
-}
-h1 {
+	margin: 20px 20px 0;
 	color: hsl(218, 44%, 22%);
 	font-size: 22px;
 }
+
 p {
-	font-size: 15px;
+	font-size: 15.5px;
 	font-weight: 400;
 	color: hsl(220, 15%, 55%);
+	margin: 15px 30px;
+	line-height: 1.25;
+}
+.container {
+	border-radius: 20px;
+	width: 320px;
+	background-color: hsl(0, 0%, 100%);
+	box-sizing: border-box;
+	margin: 152px auto;
+	padding-bottom: 24px;
+	box-shadow: 0 20px 25px 10px rgba(122, 122, 122, 0.1);
+}
+.main-img {
+	width: 100%;
+	padding: 16px 16px 0 16px;
+	box-sizing: border-box;
 }
 .aligned {
 	text-align: center;
