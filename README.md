@@ -32,4 +32,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Frontend Mentor - [@olepak](https://www.frontendmentor.io/profile/olepak)
-- Twitter - [@LepakOleksandr](https://twitter.com/LepakOleksandr)
+- Twitter - [@OleksandrLepak](https://twitter.com/OleksandrLepak)
